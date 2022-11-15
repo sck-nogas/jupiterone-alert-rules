@@ -169,7 +169,7 @@
     "queries": [
       {
         "name": "query0",
-        "query": "FIND (aws_db_instance|aws_rds_cluster) WITH public = true THAT PROTECTS aws_security_group THAT ALLOWS Internet",
+        "query": "FIND (aws_db_instance|aws_rds_cluster) WITH public = true THAT PROTECTS aws_security_group THAT ALLOWS << Internet",
         "version": "v1"
       }
     ],
